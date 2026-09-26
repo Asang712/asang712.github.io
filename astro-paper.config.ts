@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://asang-blog.vercel.app/",
+    url: "https://asang712.github.io/",
     title: "阿桑的博客",
     description: "阿桑的个人技术博客，记录算法学习与编程实践。",
     author: "阿桑",
@@ -24,12 +24,12 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/Asang712/asang-blog/edit/main/src/content/posts/",
+      url: "https://github.com/Asang712/asang712.github.io/edit/main/src/content/posts/",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/Asang712/asang-blog" },
+    { name: "github",   url: "https://github.com/Asang712/asang712.github.io" },
     { name: "mail",     url: "mailto:3558894867@qq.com" },
   ],
   shareLinks: [
