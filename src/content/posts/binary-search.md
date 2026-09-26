@@ -1,7 +1,7 @@
 ---
 title: "二分查找 Binary Search"
 pubDatetime: 2026-09-21T20:00:00Z
-description: "二分查找算法学习笔记"
+description: "算法学习笔记"
 tags: ["算法"]
 ---
 # 二分查找
