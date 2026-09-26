@@ -35,7 +35,7 @@ const homePath = getRelativeLocaleUrl(locale, "");
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Mingalaba
+        阿桑的博客
       </h1>
       <a
         target="_blank"
@@ -52,21 +52,16 @@ const homePath = getRelativeLocaleUrl(locale, "");
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
-      </p>
+      <p>这里是阿桑的极简博客</p>
       <p class="mt-2">
-        Read the blog posts or check{" "}
+        在这里记录学习笔记、技术随笔。点击
         <LinkButton
           class="hover:text-accent underline decoration-dashed underline-offset-4"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href={getRelativeLocaleUrl(locale, "posts")}
         >
-          README
-        </LinkButton>{" "}
-        for more info.
+          博客文章
+        </LinkButton>
+        ，查看我的全部内容。
       </p>
       {
         socials.length > 0 && (
